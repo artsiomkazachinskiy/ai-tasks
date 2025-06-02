@@ -1,0 +1,49 @@
+"Apply Chain-of-Thought (CoT) reasoning to analyze the given project requirements and select the most suitable type of database. Follow these steps:
+
+Understand the Requirements:
+
+Identify key characteristics:
+
+Social platform with millions of users
+
+Data types: profiles, posts, user connections
+
+Performance: High read speed (80% reads, 20% writes)
+
+Critical need: Scalability for growing user base
+
+Evaluate Database Types:
+
+Compare relational (SQL) vs. non-relational (NoSQL) databases.
+
+Consider subcategories (e.g., document, graph, key-value stores).
+
+Assess how each handles:
+
+Read/write performance
+
+Scalability (horizontal vs. vertical)
+
+Data model flexibility (structured vs. unstructured)
+
+Match Requirements to Database Strengths:
+
+High read speed → Optimized for queries, caching, indexing.
+
+User connections → Graph-like relationships (e.g., friends/followers).
+
+Scalability → Distributed systems, partitioning/sharding support.
+
+Shortlist Candidates:
+
+Example: Graph databases (for connections), document stores (for profiles/posts), or hybrid approaches.
+
+Justify why certain types are eliminated (e.g., pure key-value lacks relationship handling).
+
+Select and Justify:
+
+Choose the best type (or combination) and explain how it meets each requirement.
+
+Address trade-offs (e.g., consistency vs. availability if relevant).
+
+Final output should clearly walk through the reasoning chain and conclude with a specific database recommendation."
